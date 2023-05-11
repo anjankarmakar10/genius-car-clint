@@ -1,10 +1,9 @@
-import Navbar from "../../components/Navbar/Navbar";
+import Header from "./Header";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-      home
+    <div className="container mx-auto px-4">
+      <Header />
     </div>
   );
 };

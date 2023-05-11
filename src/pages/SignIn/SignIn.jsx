@@ -5,7 +5,7 @@ import SignInProviders from "../../components/auth/SignInProviders";
 import { Link } from "react-router-dom";
 const SignIn = () => {
   return (
-    <div className="container mx-auto px-4 flex gap-10 flex-col md:flex-row p-8">
+    <div className="max-w-5xl mx-auto px-4 flex gap-10 flex-col md:flex-row p-8">
       <div className="flex-1 hidden md:flex p-8">
         <img src={Image} alt="" />
       </div>
@@ -13,7 +13,7 @@ const SignIn = () => {
         <h2 className="text-[#444444] font-semibold text-4xl text-center mb-8">
           Login
         </h2>
-        <form className="flex flex-col gap-6">
+        <form className="flex flex-col gap-4">
           <InputField
             title={"Email"}
             placeholder={"Your email"}

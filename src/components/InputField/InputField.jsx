@@ -7,7 +7,7 @@ const InputField = ({ placeholder, type, name, title }) => {
       <input
         name={name}
         placeholder={placeholder}
-        className="border py-3 px-4 border-[#E8E8E8] rounded-md"
+        className="border py-2 px-4 border-[#E8E8E8] rounded-md"
         type={type}
       />
     </div>

@@ -1,12 +1,5 @@
-import Navbar from "../../components/Navbar/Navbar";
-
 const Services = () => {
-  return (
-    <div>
-      <Navbar />
-      Services
-    </div>
-  );
+  return <div>Services</div>;
 };
 
 export default Services;

@@ -60,7 +60,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 flex gap-10 flex-col md:flex-row p-8">
+    <div className="max-w-5xl mx-auto px-4 flex gap-10 flex-col md:flex-row p-8">
       <div className="flex-1 hidden md:flex p-8">
         <img src={Image} alt="" />
       </div>
@@ -78,7 +78,7 @@ const SignUp = () => {
             {message}
           </div>
         )}
-        <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <InputField
             title={"Name"}
             placeholder={"Your name"}
